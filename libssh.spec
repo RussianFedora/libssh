@@ -7,8 +7,8 @@ Group:          System Environment/Libraries
 License:        LGPLv2+
 #original URL:	http://0xbadc0de.be/?part=libssh
 URL:            http://www.libssh.org/
-Source0:        http://www.libssh.org/files/%{version}/%{name}-%{version}.tar.gz
-Source1:        http://www.libssh.org/files/%{version}/%{name}-%{version}.tar.gz.asc
+Source0:        http://www.libssh.org/files/0.5/%{name}-%{version}.tar.gz
+Source1:        http://www.libssh.org/files/0.5/%{name}-%{version}.tar.gz.asc
 BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires:  openssl-devel
